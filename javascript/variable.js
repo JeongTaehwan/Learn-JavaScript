@@ -61,3 +61,8 @@ text = '7' + 5;
 console.log(`value: ${text}, type: ${typeof text}`);
 text = '8' / '2';
 console.log(`value: ${text}, type: ${typeof text}`);
+
+// Object
+
+const Puwan = {name: Puwan, age: 18};
+console.log(`name: ${Puwan.name}, age: ${Puwan.age}`);
