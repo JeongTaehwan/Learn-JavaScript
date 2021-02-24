@@ -44,3 +44,57 @@ if(name === 'Puwan') {
 } else {
     console.log('Who are you!?!?');
 }
+
+// Ternary
+
+console.log(name === 'Puwan' ? 'yes' : 'no'); 
+
+//Switch
+
+const browser = 'FireFox';
+
+switch(browser){
+    case 'IE':
+        console.log('Go way!');
+        break;
+    case 'FireFox':
+    case 'Chrome':
+    case 'Safari':
+        console.log('Hi everyone!');
+        break;
+}
+
+// Loops
+
+// While
+
+let i = 3;
+while (i > 0){
+    console.log(`while: ${i}`);
+    i--;
+}
+
+// Do while
+
+let j = 5;
+do {
+    console.log(`do while: ${j}`);
+    j--;
+} while(j > 0)
+
+// For
+
+for(let i = 3; i > 0; i--){
+    console.log(`For : ${i}`);
+}
+
+for(let i = 2; i <= 10; i = i + 2){
+    console.log(i);
+}
+
+for(let i = 1; i <= 10; i++){
+    if(i == 9){
+        break;
+    }
+    console.log(i);
+}
