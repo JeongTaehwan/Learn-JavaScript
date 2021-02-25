@@ -33,7 +33,7 @@ function showMessage(message, from = 'anonymous') {
 
 showMessage('Hi!');
 
-// 4
+// 4 배열
 
 function printAll(...args) {
     for (let i = 0; i < args.length; i++) {
@@ -43,7 +43,7 @@ function printAll(...args) {
 
 printAll('Hi', 'Im', 'Puwan!');
 
-// 5
+// 5 전역함수 and 지역함수
 
 let globalMessage = 'global';
 
