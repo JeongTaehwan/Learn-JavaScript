@@ -80,7 +80,6 @@ console.log(fruit.includes('watermelon'));
 console.log(fruit.includes('coconut'));
 
 //lastIndexOf
-
 fruit.push('banana');
 console.log(fruit);
 console.log(fruit.indexOf('banana'));
