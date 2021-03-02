@@ -25,7 +25,7 @@ console.log(json);
 json = JSON.stringify(Goblin, (key, value) => {
     console.log(`key: ${key}, value: ${value}`);
     return key ===  'name' ? 'Puwan' : value;
-}); 
+});
 console.log(json);
 
 //JSON -> Object (Parse)
