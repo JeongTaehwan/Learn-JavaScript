@@ -4,7 +4,7 @@
 //hoisting: var,함수 선언 등이 자동적으로 제일 위로 올라가는 것
 
 console.log('1');
-setTimeout(() => console.log('2'), 500); 
+setTimeout(() => console.log('2'), 1000); 
 console.log('3');
 
 // 콜백 마지막 정리
