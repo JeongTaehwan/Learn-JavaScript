@@ -16,7 +16,7 @@ function printImmediately(print) {
 
 printImmediately(() => console.log('hello'));
 
-function printWithDelay(print, timeout) {
+function prinWithDelay(print, timeout) {
     setTimeout(print, timeout);
 }
 
