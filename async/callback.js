@@ -27,7 +27,7 @@ function printWithDelay(print, timeout) {
 
 printWithDelay(() => console.log('async callback'), 2000);
 
-//콜백지옥 예제
+//콜백지옥 예제 🤬
 
 class UserStorage {
     loginUser(id, password, onSuccess, onError) {
