@@ -10,7 +10,6 @@ function doSomething(add) {
 
 function add(a, b) {
     const sum = a + b;
-
     return sum;
 }
 // 함수 호출
